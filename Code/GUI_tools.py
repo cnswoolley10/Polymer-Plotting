@@ -83,8 +83,9 @@ main_options_frame = sg.Frame("Main", layout = [[main_options_frame_column]])
 
 # Function to get the help_text file
 def get_helptext():
-	helptext = "alkdsfhaksf\nadkfhl\n\t\taskjdga\n\tasdfhasf"
-	return helptext
+    with open("help_text.txt") as helptext_file:
+	       helptext = helptext_file.read()
+    return helptext
 
 # This is to include a matplotlib figure in a Tkinter canvas
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, NavigationToolbar2Tk
