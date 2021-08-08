@@ -2,9 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits import mplot3d
 
-def get_helptext():
-	helptext = "alkdsfhaksf\nadkfhl\n\t\taskjdga\n\tasdfhasf"
-	return helptext
 ################################################################################
 
 def genRotMat(axis,angle):
@@ -214,7 +211,7 @@ class Freely_Rotating_Chain(Polymer_Chain):
 
             # find rotation axis unit vector (normalised by the rotation angle, which should always be the bond angle)
             u = np.cross(start,adVect) / np.sin(theta)
-            
+
             # form rotation matrix
             rotmat = genRotMat(u,theta)
 
