@@ -22,16 +22,14 @@ pad = (0,0)
 canvas_size = (600,400)
 calculator_checkboxes_per_line = 5
 chains_column_height = 500
-save_properties_file_count = count()
-next(save_properties_file_count)
 
 
 # get help_text
 help_text = GUI.get_helptext()
 
 # create a chain frame for each chain and put it in the chains column
-chains_column_layout = []
 chain_objects = []
+chains_column_layout = []
 chain_frame_RC = ["confirm-", "print_coords-"]
 for i in range(1, chain_number+1):
     new_chain_frame_layout = [
@@ -52,9 +50,9 @@ for chain in chain_objects:
     chain.calculate_end2end()
 
 # create calulator frame
-calculator_checkboxes = ["N", "l", "E2E", "CoM", "RoG"]
-calculator_checkbox_tooltips = ["Number of segments", "Length of each segment", "End to end distance", "Centre of mass", "Radius of gyration"]
-calculator_checkbox_keys = ["-check_{}-".format(label) for label in calculator_checkboxes]
+calculator_checkboxes = GUI.calculator_checkboxes
+calculator_checkbox_tooltips = GUI.calculator_checkbox_tooltips
+calculator_checkbox_keys = GUI.calculator_checkbox_keys
 calculator_frame_layout = []
 calculator_frame_layout_line = []
 for i, label in enumerate(calculator_checkboxes):
@@ -91,6 +89,10 @@ main_options_frame_column = sg.Column(layout = [
     [sg.T('Demo')],
     [sg.B('Plot'), sg.B('Exit'), sg.B("Help", key="-help-")]], size=(left_col_width,top_row_height))
 main_options_frame = sg.Frame("Main", layout = [[main_options_frame_column]])
+
+
+
+
 
 layout = [
     [main_options_frame, output_frame],
@@ -138,14 +140,8 @@ while True:
         output_multiline.update(value="")
     # print the selected properties of all the chains to the output box
     if event == "-calculate_chain_properties-":
-        GUI.calculate_chain_properties(values)
+        GUI.calculate_chain_properties(chain_objects, values)
     # save the current properties to a .csv file
     if event == "-save_chain_properties-":
-        chain_properties_to_save = GUI.calculate_chain_properties(values, cprint=False, round=False)
-        chain_properties_to_save = [line + "\n" for line in chain_properties_to_save]
-        print(chain_properties_to_save)
-        save_location = sg.popup_get_file("Select a save location", save_as=True, initial_folder=os.getcwd(), default_extension=".csv", file_types=(("Comma separated values", ".csv"),))
-        if save_location:
-            with open(save_location,"w") as save_properties_file:
-                save_properties_file.writelines(chain_properties_to_save)
+        GUI.save_chain_properties(chain_objects, values)
 window.close()
