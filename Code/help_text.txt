@@ -1,0 +1,58 @@
+Hello! Welcome to this polymer plotting program.
+This program plots the shape of polymer chains as formed by some simple models (plus maybe in future some demo shapes).
+
+DISCLAIMER: This program was written by a part II materials student with < 1 year coding experience.
+Some bits may not be best optimised, pls no hate, feedback always welcome :)
+
+Please read this help text before sending any issues.
+For code issues: https://github.com/cnswoolley10/Polymer-Plotting
+
+-----------------------------------------------------------------------------------------------
+USING THIS GUI:      (You don't have to use the GUI, see the GitHub readme above)
+
+1. Set the values for the chains in the left hand pain. Keep total sum of chain length<20000 for fast calculation.
+2. Check your chain values and then click confirm all. This will calculate your chain geometries and store them in memory.
+3. Click plot to see your chains!
+-----------------------------------------------------------------------------------------------
+FULL INFO:
+There are four panes:
+MAIN:
+	- Plot - Plots the chains stored in the memory
+	- Exit - Exits the GUI and ends the program
+	- Help - Looks like you've figured this one out
+
+CHAIN OPTIONS:
+	- Confirm all - Takes the chains as specified below this button, calculates their shapes and saves them to memory. This is done rather than to auto-calculate because the program begins to slow for chains longer than ~10000 segments
+	- Clear all	  - NOT YET IMPLEMENTED Sets all the chains to 'None' and saves to memory
+	
+	CHAIN X:
+		- Chain type   - Set the model with which the chain is created
+		- Chain length - Set the number of segments in the chain
+		NOTE: You'll see most parameters of the models are currently only presets and not user-editable (this will change in future)
+			The current presets are: (Chosen to reflect carbon chain properties)
+				ALL: segment length = 1
+				FR & RI: bond angle = 109.5
+				RI: number of torsion positions = 3 (t, g+, g-)
+					trans configuration bias = 2 (how many times more likely the trans configuration is compared to any one of the others)
+		- Right click  - Right click the chain name to confirm chains individually or print the stored coordinates
+	
+	PROPERTIES CALCULATOR:
+		Properties are:
+			- N	    - Number of segments in the chains
+			- l     - Length of each segments
+			- E2E   - End to end distance
+			- CoM   - Centre of Mass
+			- RoG   - Radius of gyration
+		- Calculate - Calculates the selected properties of the chains stored in the memory and prints to info pane
+		- Save      - Save to .csv the selected properties of the chains stored in the memory
+
+PLOTTING:
+	This is all the standard GUI imported from matplotlib.
+	NOTE: the zoom button doesn't work due to being in 3D.
+		Can still zoom by click&drag with right mouse button
+		LMB to pan as you'd expect.
+		MMB to traverse.
+
+INFO:
+	Any calculations will be printed here as well as info messages.
+	Get a larger version of the textbox with the popout button. You can edit and save the output text from the popout.

@@ -48,7 +48,7 @@ while True:
             GUI.confirm_chain(chain_objects, chain_index, values)
     # create a help window
     if event == "-help-":
-        GUI.open_text_window(help_text,"-help_window-", title="Help Text")
+        GUI.open_text_window(help_text,"-help_window-", title="Help Text", size=(150,30))
     # create a popout window version of the output box
     if event == "-output_popout-":
         GUI.open_text_window(GUI.output_multiline.get(), "Expanded Output Textbox", title="Expanded Output Textbox")
