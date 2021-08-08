@@ -1,0 +1,537 @@
+[2021-08-08T17:05:17.591407 9212 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-08-08T17:05:17.591407 9212 ] Config: (default) base_dir = 
+[2021-08-08T17:05:17.591407 9212 ] Config: (environment) cache_dir = C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-08-08T17:05:17.591407 9212 ] Config: (default) cache_dir_levels = 2
+[2021-08-08T17:05:17.591407 9212 ] Config: (default) compiler = 
+[2021-08-08T17:05:17.591407 9212 ] Config: (default) compiler_check = mtime
+[2021-08-08T17:05:17.591407 9212 ] Config: (default) compression = false
+[2021-08-08T17:05:17.591407 9212 ] Config: (default) compression_level = 6
+[2021-08-08T17:05:17.591407 9212 ] Config: (default) cpp_extension = 
+[2021-08-08T17:05:17.591407 9212 ] Config: (default) debug = false
+[2021-08-08T17:05:17.591407 9212 ] Config: (default) depend_mode = false
+[2021-08-08T17:05:17.591407 9212 ] Config: (default) direct_mode = true
+[2021-08-08T17:05:17.591407 9212 ] Config: (default) disable = false
+[2021-08-08T17:05:17.591407 9212 ] Config: (default) extra_files_to_hash = 
+[2021-08-08T17:05:17.591407 9212 ] Config: (default) hard_link = false
+[2021-08-08T17:05:17.591407 9212 ] Config: (default) hash_dir = true
+[2021-08-08T17:05:17.591407 9212 ] Config: (default) ignore_headers_in_manifest = 
+[2021-08-08T17:05:17.591407 9212 ] Config: (default) keep_comments_cpp = false
+[2021-08-08T17:05:17.591407 9212 ] Config: (default) limit_multiple = 0.8
+[2021-08-08T17:05:17.591407 9212 ] Config: (environment) log_file = C:\Users\Chris\Documents\GitHub\Polymer-Plotting\PolymerPlottingGUI_Executable\PolymerPlottingGUI.build\ccache-15928.txt
+[2021-08-08T17:05:17.591407 9212 ] Config: (default) max_files = 0
+[2021-08-08T17:05:17.591407 9212 ] Config: (C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-08-08T17:05:17.591407 9212 ] Config: (default) path = 
+[2021-08-08T17:05:17.591407 9212 ] Config: (default) pch_external_checksum = false
+[2021-08-08T17:05:17.591407 9212 ] Config: (default) prefix_command = 
+[2021-08-08T17:05:17.591407 9212 ] Config: (default) prefix_command_cpp = 
+[2021-08-08T17:05:17.591407 9212 ] Config: (default) read_only = false
+[2021-08-08T17:05:17.591407 9212 ] Config: (default) read_only_direct = false
+[2021-08-08T17:05:17.591407 9212 ] Config: (default) recache = false
+[2021-08-08T17:05:17.591407 9212 ] Config: (default) run_second_cpp = true
+[2021-08-08T17:05:17.591407 9212 ] Config: (default) sloppiness = 
+[2021-08-08T17:05:17.591407 9212 ] Config: (default) stats = true
+[2021-08-08T17:05:17.591407 9212 ] Config: (default) temporary_dir = 
+[2021-08-08T17:05:17.591407 9212 ] Config: (default) umask = 
+[2021-08-08T17:05:17.591407 9212 ] Command line: C:\Users\Chris\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Chris\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o __constants.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\Chris\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Chris\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Chris\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src __constants.c
+[2021-08-08T17:05:17.592403 9212 ] Hostname: CHRIS-W-XPS
+[2021-08-08T17:05:17.592403 9212 ] Working directory: C:\Users\Chris\Documents\GitHub\Polymer-Plotting\PolymerPlottingGUI_Executable\PolymerPlottingGUI.build
+[2021-08-08T17:05:17.592403 9212 ] Source file: __constants.c
+[2021-08-08T17:05:17.592403 9212 ] Object file: __constants.o
+[2021-08-08T17:05:17.592403 9212 ] Trying direct lookup
+[2021-08-08T17:05:17.592403 9212 ] Looking for object file hash in C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/5/2717893bccfd52a3e5e3125b9fa24d-5343.manifest
+[2021-08-08T17:05:17.616341 276  ] === CCACHE 3.7.12 STARTED =========================================
+[2021-08-08T17:05:17.616341 276  ] Config: (default) base_dir = 
+[2021-08-08T17:05:17.616341 276  ] Config: (environment) cache_dir = C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-08-08T17:05:17.616341 276  ] Config: (default) cache_dir_levels = 2
+[2021-08-08T17:05:17.616341 276  ] Config: (default) compiler = 
+[2021-08-08T17:05:17.616341 276  ] Config: (default) compiler_check = mtime
+[2021-08-08T17:05:17.616341 276  ] Config: (default) compression = false
+[2021-08-08T17:05:17.616341 276  ] Config: (default) compression_level = 6
+[2021-08-08T17:05:17.616341 276  ] Config: (default) cpp_extension = 
+[2021-08-08T17:05:17.616341 276  ] Config: (default) debug = false
+[2021-08-08T17:05:17.616341 276  ] Config: (default) depend_mode = false
+[2021-08-08T17:05:17.616341 276  ] Config: (default) direct_mode = true
+[2021-08-08T17:05:17.616341 276  ] Config: (default) disable = false
+[2021-08-08T17:05:17.616341 276  ] Config: (default) extra_files_to_hash = 
+[2021-08-08T17:05:17.616341 276  ] Config: (default) hard_link = false
+[2021-08-08T17:05:17.616341 276  ] Config: (default) hash_dir = true
+[2021-08-08T17:05:17.616341 276  ] Config: (default) ignore_headers_in_manifest = 
+[2021-08-08T17:05:17.616341 276  ] Config: (default) keep_comments_cpp = false
+[2021-08-08T17:05:17.616341 276  ] Config: (default) limit_multiple = 0.8
+[2021-08-08T17:05:17.616341 276  ] Config: (environment) log_file = C:\Users\Chris\Documents\GitHub\Polymer-Plotting\PolymerPlottingGUI_Executable\PolymerPlottingGUI.build\ccache-15928.txt
+[2021-08-08T17:05:17.616341 276  ] Config: (default) max_files = 0
+[2021-08-08T17:05:17.616341 276  ] Config: (C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-08-08T17:05:17.616341 276  ] Config: (default) path = 
+[2021-08-08T17:05:17.616341 276  ] Config: (default) pch_external_checksum = false
+[2021-08-08T17:05:17.616341 276  ] Config: (default) prefix_command = 
+[2021-08-08T17:05:17.616341 276  ] Config: (default) prefix_command_cpp = 
+[2021-08-08T17:05:17.616341 276  ] Config: (default) read_only = false
+[2021-08-08T17:05:17.616341 276  ] Config: (default) read_only_direct = false
+[2021-08-08T17:05:17.616341 276  ] Config: (default) recache = false
+[2021-08-08T17:05:17.616341 276  ] Config: (default) run_second_cpp = true
+[2021-08-08T17:05:17.616341 276  ] Config: (default) sloppiness = 
+[2021-08-08T17:05:17.616341 276  ] Config: (default) stats = true
+[2021-08-08T17:05:17.616341 276  ] Config: (default) temporary_dir = 
+[2021-08-08T17:05:17.616341 276  ] Config: (default) umask = 
+[2021-08-08T17:05:17.616341 276  ] Command line: C:\Users\Chris\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Chris\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o __helpers.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\Chris\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Chris\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Chris\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src __helpers.c
+[2021-08-08T17:05:17.617339 276  ] Hostname: CHRIS-W-XPS
+[2021-08-08T17:05:17.617339 276  ] Working directory: C:\Users\Chris\Documents\GitHub\Polymer-Plotting\PolymerPlottingGUI_Executable\PolymerPlottingGUI.build
+[2021-08-08T17:05:17.617339 276  ] Source file: __helpers.c
+[2021-08-08T17:05:17.617339 276  ] Object file: __helpers.o
+[2021-08-08T17:05:17.617339 276  ] Trying direct lookup
+[2021-08-08T17:05:17.618336 276  ] Looking for object file hash in C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/3/5eb7f6e383b5f296014e7ea612e7f1-61943.manifest
+[2021-08-08T17:05:17.634294 1352 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-08-08T17:05:17.634294 1352 ] Config: (default) base_dir = 
+[2021-08-08T17:05:17.634294 1352 ] Config: (environment) cache_dir = C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-08-08T17:05:17.634294 1352 ] Config: (default) cache_dir_levels = 2
+[2021-08-08T17:05:17.634294 1352 ] Config: (default) compiler = 
+[2021-08-08T17:05:17.634294 1352 ] Config: (default) compiler_check = mtime
+[2021-08-08T17:05:17.634294 1352 ] Config: (default) compression = false
+[2021-08-08T17:05:17.634294 1352 ] Config: (default) compression_level = 6
+[2021-08-08T17:05:17.634294 1352 ] Config: (default) cpp_extension = 
+[2021-08-08T17:05:17.634294 1352 ] Config: (default) debug = false
+[2021-08-08T17:05:17.634294 1352 ] Config: (default) depend_mode = false
+[2021-08-08T17:05:17.634294 1352 ] Config: (default) direct_mode = true
+[2021-08-08T17:05:17.634294 1352 ] Config: (default) disable = false
+[2021-08-08T17:05:17.634294 1352 ] Config: (default) extra_files_to_hash = 
+[2021-08-08T17:05:17.634294 1352 ] Config: (default) hard_link = false
+[2021-08-08T17:05:17.634294 1352 ] Config: (default) hash_dir = true
+[2021-08-08T17:05:17.634294 1352 ] Config: (default) ignore_headers_in_manifest = 
+[2021-08-08T17:05:17.634294 1352 ] Config: (default) keep_comments_cpp = false
+[2021-08-08T17:05:17.634294 1352 ] Config: (default) limit_multiple = 0.8
+[2021-08-08T17:05:17.634294 1352 ] Config: (environment) log_file = C:\Users\Chris\Documents\GitHub\Polymer-Plotting\PolymerPlottingGUI_Executable\PolymerPlottingGUI.build\ccache-15928.txt
+[2021-08-08T17:05:17.634294 1352 ] Config: (default) max_files = 0
+[2021-08-08T17:05:17.634294 1352 ] Config: (C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-08-08T17:05:17.634294 1352 ] Config: (default) path = 
+[2021-08-08T17:05:17.634294 1352 ] Config: (default) pch_external_checksum = false
+[2021-08-08T17:05:17.634294 1352 ] Config: (default) prefix_command = 
+[2021-08-08T17:05:17.634294 1352 ] Config: (default) prefix_command_cpp = 
+[2021-08-08T17:05:17.634294 1352 ] Config: (default) read_only = false
+[2021-08-08T17:05:17.634294 1352 ] Config: (default) read_only_direct = false
+[2021-08-08T17:05:17.634294 1352 ] Config: (default) recache = false
+[2021-08-08T17:05:17.634294 1352 ] Config: (default) run_second_cpp = true
+[2021-08-08T17:05:17.634294 1352 ] Config: (default) sloppiness = 
+[2021-08-08T17:05:17.634294 1352 ] Config: (default) stats = true
+[2021-08-08T17:05:17.634294 1352 ] Config: (default) temporary_dir = 
+[2021-08-08T17:05:17.634294 1352 ] Config: (default) umask = 
+[2021-08-08T17:05:17.635292 1352 ] Command line: C:\Users\Chris\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Chris\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o __loader.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\Chris\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Chris\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Chris\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src __loader.c
+[2021-08-08T17:05:17.635292 1352 ] Hostname: CHRIS-W-XPS
+[2021-08-08T17:05:17.635292 1352 ] Working directory: C:\Users\Chris\Documents\GitHub\Polymer-Plotting\PolymerPlottingGUI_Executable\PolymerPlottingGUI.build
+[2021-08-08T17:05:17.635292 1352 ] Source file: __loader.c
+[2021-08-08T17:05:17.635292 1352 ] Object file: __loader.o
+[2021-08-08T17:05:17.635292 1352 ] Trying direct lookup
+[2021-08-08T17:05:17.635292 1352 ] Looking for object file hash in C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/0/18b69a5ccc074507f76b25d85f25f0-3182.manifest
+[2021-08-08T17:05:17.658228 15800] === CCACHE 3.7.12 STARTED =========================================
+[2021-08-08T17:05:17.658228 15800] Config: (default) base_dir = 
+[2021-08-08T17:05:17.658228 15800] Config: (environment) cache_dir = C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-08-08T17:05:17.658228 15800] Config: (default) cache_dir_levels = 2
+[2021-08-08T17:05:17.658228 15800] Config: (default) compiler = 
+[2021-08-08T17:05:17.658228 15800] Config: (default) compiler_check = mtime
+[2021-08-08T17:05:17.658228 15800] Config: (default) compression = false
+[2021-08-08T17:05:17.658228 15800] Config: (default) compression_level = 6
+[2021-08-08T17:05:17.658228 15800] Config: (default) cpp_extension = 
+[2021-08-08T17:05:17.658228 15800] Config: (default) debug = false
+[2021-08-08T17:05:17.658228 15800] Config: (default) depend_mode = false
+[2021-08-08T17:05:17.658228 15800] Config: (default) direct_mode = true
+[2021-08-08T17:05:17.658228 15800] Config: (default) disable = false
+[2021-08-08T17:05:17.658228 15800] Config: (default) extra_files_to_hash = 
+[2021-08-08T17:05:17.658228 15800] Config: (default) hard_link = false
+[2021-08-08T17:05:17.658228 15800] Config: (default) hash_dir = true
+[2021-08-08T17:05:17.658228 15800] Config: (default) ignore_headers_in_manifest = 
+[2021-08-08T17:05:17.658228 15800] Config: (default) keep_comments_cpp = false
+[2021-08-08T17:05:17.658228 15800] Config: (default) limit_multiple = 0.8
+[2021-08-08T17:05:17.658228 15800] Config: (environment) log_file = C:\Users\Chris\Documents\GitHub\Polymer-Plotting\PolymerPlottingGUI_Executable\PolymerPlottingGUI.build\ccache-15928.txt
+[2021-08-08T17:05:17.658228 15800] Config: (default) max_files = 0
+[2021-08-08T17:05:17.658228 15800] Config: (C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-08-08T17:05:17.658228 15800] Config: (default) path = 
+[2021-08-08T17:05:17.658228 15800] Config: (default) pch_external_checksum = false
+[2021-08-08T17:05:17.658228 15800] Config: (default) prefix_command = 
+[2021-08-08T17:05:17.658228 15800] Config: (default) prefix_command_cpp = 
+[2021-08-08T17:05:17.658228 15800] Config: (default) read_only = false
+[2021-08-08T17:05:17.658228 15800] Config: (default) read_only_direct = false
+[2021-08-08T17:05:17.658228 15800] Config: (default) recache = false
+[2021-08-08T17:05:17.658228 15800] Config: (default) run_second_cpp = true
+[2021-08-08T17:05:17.658228 15800] Config: (default) sloppiness = 
+[2021-08-08T17:05:17.658228 15800] Config: (default) stats = true
+[2021-08-08T17:05:17.658228 15800] Config: (default) temporary_dir = 
+[2021-08-08T17:05:17.658228 15800] Config: (default) umask = 
+[2021-08-08T17:05:17.658228 15800] Command line: C:\Users\Chris\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Chris\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o module.__main__.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\Chris\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Chris\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Chris\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src module.__main__.c
+[2021-08-08T17:05:17.658228 15800] Hostname: CHRIS-W-XPS
+[2021-08-08T17:05:17.658228 15800] Working directory: C:\Users\Chris\Documents\GitHub\Polymer-Plotting\PolymerPlottingGUI_Executable\PolymerPlottingGUI.build
+[2021-08-08T17:05:17.659225 15800] Source file: module.__main__.c
+[2021-08-08T17:05:17.659225 15800] Object file: module.__main__.o
+[2021-08-08T17:05:17.659225 15800] Trying direct lookup
+[2021-08-08T17:05:17.659225 15800] Looking for object file hash in C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/b/6f7efa2f1dcc45e2188625a755b7c6-129471.manifest
+[2021-08-08T17:05:17.660222 15800] No such manifest file
+[2021-08-08T17:05:17.660222 15800] Did not find object file hash in manifest
+[2021-08-08T17:05:17.661220 15800] Running preprocessor
+[2021-08-08T17:05:17.671193 1352 ] Got object file hash from manifest
+[2021-08-08T17:05:17.672191 1352 ] Copying C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/f/f17e4743cd666496651d8b42b5d217-440111.o to __loader.o (uncompressed)
+[2021-08-08T17:05:17.672191 1352 ] Created from cache: C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/f/f17e4743cd666496651d8b42b5d217-440111.o -> __loader.o
+[2021-08-08T17:05:17.673188 1352 ] Succeeded getting cached result
+[2021-08-08T17:05:17.673188 1352 ] Result: cache hit (direct)
+[2021-08-08T17:05:17.675184 1352 ] Acquired lock C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/stats.lock
+[2021-08-08T17:05:17.678174 1352 ] Releasing lock C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/stats.lock
+[2021-08-08T17:05:17.685156 11756] === CCACHE 3.7.12 STARTED =========================================
+[2021-08-08T17:05:17.685156 11756] Config: (default) base_dir = 
+[2021-08-08T17:05:17.685156 11756] Config: (environment) cache_dir = C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-08-08T17:05:17.685156 11756] Config: (default) cache_dir_levels = 2
+[2021-08-08T17:05:17.685156 11756] Config: (default) compiler = 
+[2021-08-08T17:05:17.685156 11756] Config: (default) compiler_check = mtime
+[2021-08-08T17:05:17.685156 11756] Config: (default) compression = false
+[2021-08-08T17:05:17.685156 11756] Config: (default) compression_level = 6
+[2021-08-08T17:05:17.685156 11756] Config: (default) cpp_extension = 
+[2021-08-08T17:05:17.685156 11756] Config: (default) debug = false
+[2021-08-08T17:05:17.685156 11756] Config: (default) depend_mode = false
+[2021-08-08T17:05:17.685156 11756] Config: (default) direct_mode = true
+[2021-08-08T17:05:17.685156 11756] Config: (default) disable = false
+[2021-08-08T17:05:17.685156 11756] Config: (default) extra_files_to_hash = 
+[2021-08-08T17:05:17.685156 11756] Config: (default) hard_link = false
+[2021-08-08T17:05:17.685156 11756] Config: (default) hash_dir = true
+[2021-08-08T17:05:17.685156 11756] Config: (default) ignore_headers_in_manifest = 
+[2021-08-08T17:05:17.685156 11756] Config: (default) keep_comments_cpp = false
+[2021-08-08T17:05:17.685156 11756] Config: (default) limit_multiple = 0.8
+[2021-08-08T17:05:17.685156 11756] Config: (environment) log_file = C:\Users\Chris\Documents\GitHub\Polymer-Plotting\PolymerPlottingGUI_Executable\PolymerPlottingGUI.build\ccache-15928.txt
+[2021-08-08T17:05:17.685156 11756] Config: (default) max_files = 0
+[2021-08-08T17:05:17.685156 11756] Config: (C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-08-08T17:05:17.685156 11756] Config: (default) path = 
+[2021-08-08T17:05:17.685156 11756] Config: (default) pch_external_checksum = false
+[2021-08-08T17:05:17.685156 11756] Config: (default) prefix_command = 
+[2021-08-08T17:05:17.685156 11756] Config: (default) prefix_command_cpp = 
+[2021-08-08T17:05:17.685156 11756] Config: (default) read_only = false
+[2021-08-08T17:05:17.685156 11756] Config: (default) read_only_direct = false
+[2021-08-08T17:05:17.685156 11756] Config: (default) recache = false
+[2021-08-08T17:05:17.685156 11756] Config: (default) run_second_cpp = true
+[2021-08-08T17:05:17.685156 11756] Config: (default) sloppiness = 
+[2021-08-08T17:05:17.685156 11756] Config: (default) stats = true
+[2021-08-08T17:05:17.685156 11756] Config: (default) temporary_dir = 
+[2021-08-08T17:05:17.685156 11756] Config: (default) umask = 
+[2021-08-08T17:05:17.685156 11756] Command line: C:\Users\Chris\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Chris\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o static_src\MainProgram.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\Chris\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Chris\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Chris\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src static_src\MainProgram.c
+[2021-08-08T17:05:17.685156 11756] Hostname: CHRIS-W-XPS
+[2021-08-08T17:05:17.686155 11756] Working directory: C:\Users\Chris\Documents\GitHub\Polymer-Plotting\PolymerPlottingGUI_Executable\PolymerPlottingGUI.build
+[2021-08-08T17:05:17.687151 11756] Source file: static_src\MainProgram.c
+[2021-08-08T17:05:17.687151 11756] Object file: static_src\MainProgram.o
+[2021-08-08T17:05:17.687151 11756] Trying direct lookup
+[2021-08-08T17:05:17.688149 11756] Looking for object file hash in C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/a/13790dd5c61f28d87d9400a3e53c46-26735.manifest
+[2021-08-08T17:05:17.698121 12120] === CCACHE 3.7.12 STARTED =========================================
+[2021-08-08T17:05:17.698121 12120] Config: (default) base_dir = 
+[2021-08-08T17:05:17.698121 12120] Config: (environment) cache_dir = C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-08-08T17:05:17.698121 12120] Config: (default) cache_dir_levels = 2
+[2021-08-08T17:05:17.698121 12120] Config: (default) compiler = 
+[2021-08-08T17:05:17.698121 12120] Config: (default) compiler_check = mtime
+[2021-08-08T17:05:17.698121 12120] Config: (default) compression = false
+[2021-08-08T17:05:17.698121 12120] Config: (default) compression_level = 6
+[2021-08-08T17:05:17.698121 12120] Config: (default) cpp_extension = 
+[2021-08-08T17:05:17.698121 12120] Config: (default) debug = false
+[2021-08-08T17:05:17.698121 12120] Config: (default) depend_mode = false
+[2021-08-08T17:05:17.698121 12120] Config: (default) direct_mode = true
+[2021-08-08T17:05:17.698121 12120] Config: (default) disable = false
+[2021-08-08T17:05:17.698121 12120] Config: (default) extra_files_to_hash = 
+[2021-08-08T17:05:17.698121 12120] Config: (default) hard_link = false
+[2021-08-08T17:05:17.698121 12120] Config: (default) hash_dir = true
+[2021-08-08T17:05:17.698121 12120] Config: (default) ignore_headers_in_manifest = 
+[2021-08-08T17:05:17.698121 12120] Config: (default) keep_comments_cpp = false
+[2021-08-08T17:05:17.698121 12120] Config: (default) limit_multiple = 0.8
+[2021-08-08T17:05:17.698121 12120] Config: (environment) log_file = C:\Users\Chris\Documents\GitHub\Polymer-Plotting\PolymerPlottingGUI_Executable\PolymerPlottingGUI.build\ccache-15928.txt
+[2021-08-08T17:05:17.698121 12120] Config: (default) max_files = 0
+[2021-08-08T17:05:17.698121 12120] Config: (C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-08-08T17:05:17.698121 12120] Config: (default) path = 
+[2021-08-08T17:05:17.698121 12120] Config: (default) pch_external_checksum = false
+[2021-08-08T17:05:17.698121 12120] Config: (default) prefix_command = 
+[2021-08-08T17:05:17.698121 12120] Config: (default) prefix_command_cpp = 
+[2021-08-08T17:05:17.698121 12120] Config: (default) read_only = false
+[2021-08-08T17:05:17.698121 12120] Config: (default) read_only_direct = false
+[2021-08-08T17:05:17.698121 12120] Config: (default) recache = false
+[2021-08-08T17:05:17.698121 12120] Config: (default) run_second_cpp = true
+[2021-08-08T17:05:17.698121 12120] Config: (default) sloppiness = 
+[2021-08-08T17:05:17.698121 12120] Config: (default) stats = true
+[2021-08-08T17:05:17.698121 12120] Config: (default) temporary_dir = 
+[2021-08-08T17:05:17.698121 12120] Config: (default) umask = 
+[2021-08-08T17:05:17.699120 12120] Command line: C:\Users\Chris\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Chris\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o static_src\CompiledCellType.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\Chris\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Chris\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Chris\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src static_src\CompiledCellType.c
+[2021-08-08T17:05:17.699120 12120] Hostname: CHRIS-W-XPS
+[2021-08-08T17:05:17.699120 12120] Working directory: C:\Users\Chris\Documents\GitHub\Polymer-Plotting\PolymerPlottingGUI_Executable\PolymerPlottingGUI.build
+[2021-08-08T17:05:17.700116 12120] Source file: static_src\CompiledCellType.c
+[2021-08-08T17:05:17.700116 12120] Object file: static_src\CompiledCellType.o
+[2021-08-08T17:05:17.700116 12120] Trying direct lookup
+[2021-08-08T17:05:17.700116 12120] Looking for object file hash in C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/2/c45ee33111f3038c2c6721d11df6a6-8038.manifest
+[2021-08-08T17:05:17.704106 9212 ] Got object file hash from manifest
+[2021-08-08T17:05:17.705103 9212 ] Copying C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/2/3c559ef021f343ae99d83fdffe127e-2974519.o to __constants.o (uncompressed)
+[2021-08-08T17:05:17.706099 9212 ] Created from cache: C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/2/3c559ef021f343ae99d83fdffe127e-2974519.o -> __constants.o
+[2021-08-08T17:05:17.706099 9212 ] Succeeded getting cached result
+[2021-08-08T17:05:17.706099 9212 ] Result: cache hit (direct)
+[2021-08-08T17:05:17.706099 9212 ] Acquired lock C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/stats.lock
+[2021-08-08T17:05:17.708094 9212 ] Releasing lock C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/stats.lock
+[2021-08-08T17:05:17.736020 276  ] Got object file hash from manifest
+[2021-08-08T17:05:17.737018 276  ] Copying C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/a/983e42b744915b9e3e24d56a23ad15-3010746.o to __helpers.o (uncompressed)
+[2021-08-08T17:05:17.737018 276  ] Created from cache: C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/a/983e42b744915b9e3e24d56a23ad15-3010746.o -> __helpers.o
+[2021-08-08T17:05:17.738016 276  ] Succeeded getting cached result
+[2021-08-08T17:05:17.738016 276  ] Result: cache hit (direct)
+[2021-08-08T17:05:17.738016 15684] === CCACHE 3.7.12 STARTED =========================================
+[2021-08-08T17:05:17.738016 276  ] Acquired lock C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/stats.lock
+[2021-08-08T17:05:17.738016 15684] Config: (default) base_dir = 
+[2021-08-08T17:05:17.738016 15684] Config: (environment) cache_dir = C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-08-08T17:05:17.738016 15684] Config: (default) cache_dir_levels = 2
+[2021-08-08T17:05:17.738016 15684] Config: (default) compiler = 
+[2021-08-08T17:05:17.738016 15684] Config: (default) compiler_check = mtime
+[2021-08-08T17:05:17.738016 15684] Config: (default) compression = false
+[2021-08-08T17:05:17.738016 15684] Config: (default) compression_level = 6
+[2021-08-08T17:05:17.738016 15684] Config: (default) cpp_extension = 
+[2021-08-08T17:05:17.738016 15684] Config: (default) debug = false
+[2021-08-08T17:05:17.738016 15684] Config: (default) depend_mode = false
+[2021-08-08T17:05:17.738016 15684] Config: (default) direct_mode = true
+[2021-08-08T17:05:17.738016 15684] Config: (default) disable = false
+[2021-08-08T17:05:17.738016 15684] Config: (default) extra_files_to_hash = 
+[2021-08-08T17:05:17.738016 15684] Config: (default) hard_link = false
+[2021-08-08T17:05:17.738016 15684] Config: (default) hash_dir = true
+[2021-08-08T17:05:17.738016 15684] Config: (default) ignore_headers_in_manifest = 
+[2021-08-08T17:05:17.738016 15684] Config: (default) keep_comments_cpp = false
+[2021-08-08T17:05:17.738016 15684] Config: (default) limit_multiple = 0.8
+[2021-08-08T17:05:17.738016 15684] Config: (environment) log_file = C:\Users\Chris\Documents\GitHub\Polymer-Plotting\PolymerPlottingGUI_Executable\PolymerPlottingGUI.build\ccache-15928.txt
+[2021-08-08T17:05:17.738016 15684] Config: (default) max_files = 0
+[2021-08-08T17:05:17.738016 15684] Config: (C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-08-08T17:05:17.738016 15684] Config: (default) path = 
+[2021-08-08T17:05:17.738016 15684] Config: (default) pch_external_checksum = false
+[2021-08-08T17:05:17.738016 15684] Config: (default) prefix_command = 
+[2021-08-08T17:05:17.738016 15684] Config: (default) prefix_command_cpp = 
+[2021-08-08T17:05:17.738016 15684] Config: (default) read_only = false
+[2021-08-08T17:05:17.738016 15684] Config: (default) read_only_direct = false
+[2021-08-08T17:05:17.738016 15684] Config: (default) recache = false
+[2021-08-08T17:05:17.738016 15684] Config: (default) run_second_cpp = true
+[2021-08-08T17:05:17.738016 15684] Config: (default) sloppiness = 
+[2021-08-08T17:05:17.738016 15684] Config: (default) stats = true
+[2021-08-08T17:05:17.738016 15684] Config: (default) temporary_dir = 
+[2021-08-08T17:05:17.738016 15684] Config: (default) umask = 
+[2021-08-08T17:05:17.738016 15684] Command line: C:\Users\Chris\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Chris\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o static_src\CompiledFunctionType.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\Chris\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Chris\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Chris\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src static_src\CompiledFunctionType.c
+[2021-08-08T17:05:17.738016 15684] Hostname: CHRIS-W-XPS
+[2021-08-08T17:05:17.739013 15684] Working directory: C:\Users\Chris\Documents\GitHub\Polymer-Plotting\PolymerPlottingGUI_Executable\PolymerPlottingGUI.build
+[2021-08-08T17:05:17.739013 15684] Source file: static_src\CompiledFunctionType.c
+[2021-08-08T17:05:17.739013 15684] Object file: static_src\CompiledFunctionType.o
+[2021-08-08T17:05:17.739013 15684] Trying direct lookup
+[2021-08-08T17:05:17.740009 15684] Looking for object file hash in C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/7/d614c7ab36a65767270188ec34d43c-79019.manifest
+[2021-08-08T17:05:17.742004 276  ] Releasing lock C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/stats.lock
+[2021-08-08T17:05:17.774916 7944 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-08-08T17:05:17.774916 7944 ] Config: (default) base_dir = 
+[2021-08-08T17:05:17.774916 7944 ] Config: (environment) cache_dir = C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-08-08T17:05:17.774916 7944 ] Config: (default) cache_dir_levels = 2
+[2021-08-08T17:05:17.774916 7944 ] Config: (default) compiler = 
+[2021-08-08T17:05:17.774916 7944 ] Config: (default) compiler_check = mtime
+[2021-08-08T17:05:17.774916 7944 ] Config: (default) compression = false
+[2021-08-08T17:05:17.774916 7944 ] Config: (default) compression_level = 6
+[2021-08-08T17:05:17.774916 7944 ] Config: (default) cpp_extension = 
+[2021-08-08T17:05:17.774916 7944 ] Config: (default) debug = false
+[2021-08-08T17:05:17.774916 7944 ] Config: (default) depend_mode = false
+[2021-08-08T17:05:17.774916 7944 ] Config: (default) direct_mode = true
+[2021-08-08T17:05:17.774916 7944 ] Config: (default) disable = false
+[2021-08-08T17:05:17.774916 7944 ] Config: (default) extra_files_to_hash = 
+[2021-08-08T17:05:17.774916 7944 ] Config: (default) hard_link = false
+[2021-08-08T17:05:17.774916 7944 ] Config: (default) hash_dir = true
+[2021-08-08T17:05:17.774916 7944 ] Config: (default) ignore_headers_in_manifest = 
+[2021-08-08T17:05:17.774916 7944 ] Config: (default) keep_comments_cpp = false
+[2021-08-08T17:05:17.774916 7944 ] Config: (default) limit_multiple = 0.8
+[2021-08-08T17:05:17.774916 7944 ] Config: (environment) log_file = C:\Users\Chris\Documents\GitHub\Polymer-Plotting\PolymerPlottingGUI_Executable\PolymerPlottingGUI.build\ccache-15928.txt
+[2021-08-08T17:05:17.774916 7944 ] Config: (default) max_files = 0
+[2021-08-08T17:05:17.774916 7944 ] Config: (C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-08-08T17:05:17.774916 7944 ] Config: (default) path = 
+[2021-08-08T17:05:17.774916 7944 ] Config: (default) pch_external_checksum = false
+[2021-08-08T17:05:17.774916 7944 ] Config: (default) prefix_command = 
+[2021-08-08T17:05:17.774916 7944 ] Config: (default) prefix_command_cpp = 
+[2021-08-08T17:05:17.774916 7944 ] Config: (default) read_only = false
+[2021-08-08T17:05:17.774916 7944 ] Config: (default) read_only_direct = false
+[2021-08-08T17:05:17.774916 7944 ] Config: (default) recache = false
+[2021-08-08T17:05:17.774916 7944 ] Config: (default) run_second_cpp = true
+[2021-08-08T17:05:17.774916 7944 ] Config: (default) sloppiness = 
+[2021-08-08T17:05:17.774916 7944 ] Config: (default) stats = true
+[2021-08-08T17:05:17.774916 7944 ] Config: (default) temporary_dir = 
+[2021-08-08T17:05:17.774916 7944 ] Config: (default) umask = 
+[2021-08-08T17:05:17.775915 7944 ] Command line: C:\Users\Chris\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Chris\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o static_src\CompiledGeneratorType.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\Chris\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Chris\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Chris\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src static_src\CompiledGeneratorType.c
+[2021-08-08T17:05:17.775915 7944 ] Hostname: CHRIS-W-XPS
+[2021-08-08T17:05:17.775915 7944 ] Working directory: C:\Users\Chris\Documents\GitHub\Polymer-Plotting\PolymerPlottingGUI_Executable\PolymerPlottingGUI.build
+[2021-08-08T17:05:17.775915 7944 ] Source file: static_src\CompiledGeneratorType.c
+[2021-08-08T17:05:17.775915 7944 ] Object file: static_src\CompiledGeneratorType.o
+[2021-08-08T17:05:17.775915 7944 ] Trying direct lookup
+[2021-08-08T17:05:17.776911 7944 ] Looking for object file hash in C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/4/cbc9a4662909fe690685a60e3ca472-57468.manifest
+[2021-08-08T17:05:17.871657 11756] Got object file hash from manifest
+[2021-08-08T17:05:17.871657 12120] Got object file hash from manifest
+[2021-08-08T17:05:17.871657 11756] Copying C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/b/176f87cb3ab8f1ff4c5208c537711c-4151161.o to static_src\MainProgram.o (uncompressed)
+[2021-08-08T17:05:17.872655 11756] Created from cache: C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/b/176f87cb3ab8f1ff4c5208c537711c-4151161.o -> static_src\MainProgram.o
+[2021-08-08T17:05:17.872655 11756] Succeeded getting cached result
+[2021-08-08T17:05:17.872655 11756] Result: cache hit (direct)
+[2021-08-08T17:05:17.873653 12120] Copying C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/4/8fb962f461aea6ba5ca10910542002-2977677.o to static_src\CompiledCellType.o (uncompressed)
+[2021-08-08T17:05:17.873653 11756] Acquired lock C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/stats.lock
+[2021-08-08T17:05:17.873653 12120] Created from cache: C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/4/8fb962f461aea6ba5ca10910542002-2977677.o -> static_src\CompiledCellType.o
+[2021-08-08T17:05:17.874650 12120] Succeeded getting cached result
+[2021-08-08T17:05:17.874650 12120] Result: cache hit (direct)
+[2021-08-08T17:05:17.874650 12120] Acquired lock C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/stats.lock
+[2021-08-08T17:05:17.875647 11756] Releasing lock C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/stats.lock
+[2021-08-08T17:05:17.876644 12120] Releasing lock C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/stats.lock
+[2021-08-08T17:05:17.888612 15684] Got object file hash from manifest
+[2021-08-08T17:05:17.888612 15684] Copying C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/a/a9a1ceb7db53bf3f5bc5f57ab4ee3d-3058113.o to static_src\CompiledFunctionType.o (uncompressed)
+[2021-08-08T17:05:17.889612 15684] Created from cache: C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/a/a9a1ceb7db53bf3f5bc5f57ab4ee3d-3058113.o -> static_src\CompiledFunctionType.o
+[2021-08-08T17:05:17.889612 15684] Succeeded getting cached result
+[2021-08-08T17:05:17.889612 15684] Result: cache hit (direct)
+[2021-08-08T17:05:17.890607 15684] Acquired lock C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/stats.lock
+[2021-08-08T17:05:17.892602 15684] Releasing lock C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/stats.lock
+[2021-08-08T17:05:17.914542 7944 ] Got object file hash from manifest
+[2021-08-08T17:05:17.915540 7944 ] Copying C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/0/5f25c3227e283f3062731b616d3db1-3161557.o to static_src\CompiledGeneratorType.o (uncompressed)
+[2021-08-08T17:05:17.915540 7944 ] Created from cache: C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/0/5f25c3227e283f3062731b616d3db1-3161557.o -> static_src\CompiledGeneratorType.o
+[2021-08-08T17:05:17.915540 7944 ] Succeeded getting cached result
+[2021-08-08T17:05:17.916538 7944 ] Result: cache hit (direct)
+[2021-08-08T17:05:17.916538 7944 ] Acquired lock C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/stats.lock
+[2021-08-08T17:05:17.918532 7944 ] Releasing lock C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/stats.lock
+[2021-08-08T17:05:17.989343 13204] === CCACHE 3.7.12 STARTED =========================================
+[2021-08-08T17:05:17.989343 13204] Config: (default) base_dir = 
+[2021-08-08T17:05:17.989343 13204] Config: (environment) cache_dir = C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-08-08T17:05:17.989343 13204] Config: (default) cache_dir_levels = 2
+[2021-08-08T17:05:17.989343 13204] Config: (default) compiler = 
+[2021-08-08T17:05:17.989343 13204] Config: (default) compiler_check = mtime
+[2021-08-08T17:05:17.989343 13204] Config: (default) compression = false
+[2021-08-08T17:05:17.989343 13204] Config: (default) compression_level = 6
+[2021-08-08T17:05:17.989343 13204] Config: (default) cpp_extension = 
+[2021-08-08T17:05:17.989343 13204] Config: (default) debug = false
+[2021-08-08T17:05:17.989343 13204] Config: (default) depend_mode = false
+[2021-08-08T17:05:17.989343 13204] Config: (default) direct_mode = true
+[2021-08-08T17:05:17.989343 13204] Config: (default) disable = false
+[2021-08-08T17:05:17.989343 13204] Config: (default) extra_files_to_hash = 
+[2021-08-08T17:05:17.989343 13204] Config: (default) hard_link = false
+[2021-08-08T17:05:17.989343 13204] Config: (default) hash_dir = true
+[2021-08-08T17:05:17.989343 13204] Config: (default) ignore_headers_in_manifest = 
+[2021-08-08T17:05:17.989343 13204] Config: (default) keep_comments_cpp = false
+[2021-08-08T17:05:17.989343 13204] Config: (default) limit_multiple = 0.8
+[2021-08-08T17:05:17.989343 13204] Config: (environment) log_file = C:\Users\Chris\Documents\GitHub\Polymer-Plotting\PolymerPlottingGUI_Executable\PolymerPlottingGUI.build\ccache-15928.txt
+[2021-08-08T17:05:17.989343 13204] Config: (default) max_files = 0
+[2021-08-08T17:05:17.989343 13204] Config: (C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-08-08T17:05:17.989343 13204] Config: (default) path = 
+[2021-08-08T17:05:17.989343 13204] Config: (default) pch_external_checksum = false
+[2021-08-08T17:05:17.989343 13204] Config: (default) prefix_command = 
+[2021-08-08T17:05:17.989343 13204] Config: (default) prefix_command_cpp = 
+[2021-08-08T17:05:17.989343 13204] Config: (default) read_only = false
+[2021-08-08T17:05:17.989343 13204] Config: (default) read_only_direct = false
+[2021-08-08T17:05:17.989343 13204] Config: (default) recache = false
+[2021-08-08T17:05:17.989343 13204] Config: (default) run_second_cpp = true
+[2021-08-08T17:05:17.989343 13204] Config: (default) sloppiness = 
+[2021-08-08T17:05:17.989343 13204] Config: (default) stats = true
+[2021-08-08T17:05:17.989343 13204] Config: (default) temporary_dir = 
+[2021-08-08T17:05:17.989343 13204] Config: (default) umask = 
+[2021-08-08T17:05:17.990340 13204] Command line: C:\Users\Chris\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Chris\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o static_src\CompiledCodeHelpers.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\Chris\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Chris\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Chris\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src static_src\CompiledCodeHelpers.c
+[2021-08-08T17:05:17.990340 13204] Hostname: CHRIS-W-XPS
+[2021-08-08T17:05:17.990340 13204] Working directory: C:\Users\Chris\Documents\GitHub\Polymer-Plotting\PolymerPlottingGUI_Executable\PolymerPlottingGUI.build
+[2021-08-08T17:05:17.990340 13204] Source file: static_src\CompiledCodeHelpers.c
+[2021-08-08T17:05:17.990340 13204] Object file: static_src\CompiledCodeHelpers.o
+[2021-08-08T17:05:17.990340 13204] Trying direct lookup
+[2021-08-08T17:05:17.991337 13204] Looking for object file hash in C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/5/793bd033669fb853eb1c5d968ccfc4-55586.manifest
+[2021-08-08T17:05:18.005301 11088] === CCACHE 3.7.12 STARTED =========================================
+[2021-08-08T17:05:18.005301 11088] Config: (default) base_dir = 
+[2021-08-08T17:05:18.005301 11088] Config: (environment) cache_dir = C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-08-08T17:05:18.005301 11088] Config: (default) cache_dir_levels = 2
+[2021-08-08T17:05:18.005301 11088] Config: (default) compiler = 
+[2021-08-08T17:05:18.005301 11088] Config: (default) compiler_check = mtime
+[2021-08-08T17:05:18.005301 11088] Config: (default) compression = false
+[2021-08-08T17:05:18.005301 11088] Config: (default) compression_level = 6
+[2021-08-08T17:05:18.005301 11088] Config: (default) cpp_extension = 
+[2021-08-08T17:05:18.005301 11088] Config: (default) debug = false
+[2021-08-08T17:05:18.005301 11088] Config: (default) depend_mode = false
+[2021-08-08T17:05:18.005301 11088] Config: (default) direct_mode = true
+[2021-08-08T17:05:18.005301 11088] Config: (default) disable = false
+[2021-08-08T17:05:18.005301 11088] Config: (default) extra_files_to_hash = 
+[2021-08-08T17:05:18.005301 11088] Config: (default) hard_link = false
+[2021-08-08T17:05:18.005301 11088] Config: (default) hash_dir = true
+[2021-08-08T17:05:18.005301 11088] Config: (default) ignore_headers_in_manifest = 
+[2021-08-08T17:05:18.005301 11088] Config: (default) keep_comments_cpp = false
+[2021-08-08T17:05:18.005301 11088] Config: (default) limit_multiple = 0.8
+[2021-08-08T17:05:18.005301 11088] Config: (environment) log_file = C:\Users\Chris\Documents\GitHub\Polymer-Plotting\PolymerPlottingGUI_Executable\PolymerPlottingGUI.build\ccache-15928.txt
+[2021-08-08T17:05:18.005301 11088] Config: (default) max_files = 0
+[2021-08-08T17:05:18.005301 11088] Config: (C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-08-08T17:05:18.005301 11088] Config: (default) path = 
+[2021-08-08T17:05:18.005301 11088] Config: (default) pch_external_checksum = false
+[2021-08-08T17:05:18.005301 11088] Config: (default) prefix_command = 
+[2021-08-08T17:05:18.005301 11088] Config: (default) prefix_command_cpp = 
+[2021-08-08T17:05:18.005301 11088] Config: (default) read_only = false
+[2021-08-08T17:05:18.005301 11088] Config: (default) read_only_direct = false
+[2021-08-08T17:05:18.005301 11088] Config: (default) recache = false
+[2021-08-08T17:05:18.005301 11088] Config: (default) run_second_cpp = true
+[2021-08-08T17:05:18.005301 11088] Config: (default) sloppiness = 
+[2021-08-08T17:05:18.005301 11088] Config: (default) stats = true
+[2021-08-08T17:05:18.005301 11088] Config: (default) temporary_dir = 
+[2021-08-08T17:05:18.005301 11088] Config: (default) umask = 
+[2021-08-08T17:05:18.006299 11088] Command line: C:\Users\Chris\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Chris\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o static_src\InspectPatcher.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\Chris\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Chris\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Chris\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src static_src\InspectPatcher.c
+[2021-08-08T17:05:18.006299 11088] Hostname: CHRIS-W-XPS
+[2021-08-08T17:05:18.006299 11088] Working directory: C:\Users\Chris\Documents\GitHub\Polymer-Plotting\PolymerPlottingGUI_Executable\PolymerPlottingGUI.build
+[2021-08-08T17:05:18.007297 11088] Source file: static_src\InspectPatcher.c
+[2021-08-08T17:05:18.007297 11088] Object file: static_src\InspectPatcher.o
+[2021-08-08T17:05:18.007297 11088] Trying direct lookup
+[2021-08-08T17:05:18.007297 11088] Looking for object file hash in C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/d/9a09ce7aa8c1b96417cba4c98067f8-13702.manifest
+[2021-08-08T17:05:18.021257 13680] === CCACHE 3.7.12 STARTED =========================================
+[2021-08-08T17:05:18.021257 13680] Config: (default) base_dir = 
+[2021-08-08T17:05:18.021257 13680] Config: (environment) cache_dir = C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-08-08T17:05:18.021257 13680] Config: (default) cache_dir_levels = 2
+[2021-08-08T17:05:18.021257 13680] Config: (default) compiler = 
+[2021-08-08T17:05:18.021257 13680] Config: (default) compiler_check = mtime
+[2021-08-08T17:05:18.021257 13680] Config: (default) compression = false
+[2021-08-08T17:05:18.021257 13680] Config: (default) compression_level = 6
+[2021-08-08T17:05:18.021257 13680] Config: (default) cpp_extension = 
+[2021-08-08T17:05:18.021257 13680] Config: (default) debug = false
+[2021-08-08T17:05:18.021257 13680] Config: (default) depend_mode = false
+[2021-08-08T17:05:18.021257 13680] Config: (default) direct_mode = true
+[2021-08-08T17:05:18.021257 13680] Config: (default) disable = false
+[2021-08-08T17:05:18.021257 13680] Config: (default) extra_files_to_hash = 
+[2021-08-08T17:05:18.021257 13680] Config: (default) hard_link = false
+[2021-08-08T17:05:18.021257 13680] Config: (default) hash_dir = true
+[2021-08-08T17:05:18.021257 13680] Config: (default) ignore_headers_in_manifest = 
+[2021-08-08T17:05:18.021257 13680] Config: (default) keep_comments_cpp = false
+[2021-08-08T17:05:18.021257 13680] Config: (default) limit_multiple = 0.8
+[2021-08-08T17:05:18.021257 13680] Config: (environment) log_file = C:\Users\Chris\Documents\GitHub\Polymer-Plotting\PolymerPlottingGUI_Executable\PolymerPlottingGUI.build\ccache-15928.txt
+[2021-08-08T17:05:18.021257 13680] Config: (default) max_files = 0
+[2021-08-08T17:05:18.021257 13680] Config: (C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-08-08T17:05:18.021257 13680] Config: (default) path = 
+[2021-08-08T17:05:18.021257 13680] Config: (default) pch_external_checksum = false
+[2021-08-08T17:05:18.021257 13680] Config: (default) prefix_command = 
+[2021-08-08T17:05:18.021257 13680] Config: (default) prefix_command_cpp = 
+[2021-08-08T17:05:18.021257 13680] Config: (default) read_only = false
+[2021-08-08T17:05:18.021257 13680] Config: (default) read_only_direct = false
+[2021-08-08T17:05:18.021257 13680] Config: (default) recache = false
+[2021-08-08T17:05:18.021257 13680] Config: (default) run_second_cpp = true
+[2021-08-08T17:05:18.021257 13680] Config: (default) sloppiness = 
+[2021-08-08T17:05:18.021257 13680] Config: (default) stats = true
+[2021-08-08T17:05:18.021257 13680] Config: (default) temporary_dir = 
+[2021-08-08T17:05:18.021257 13680] Config: (default) umask = 
+[2021-08-08T17:05:18.021257 13680] Command line: C:\Users\Chris\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Chris\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o static_src\MetaPathBasedLoader.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\Chris\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Chris\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Chris\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src static_src\MetaPathBasedLoader.c
+[2021-08-08T17:05:18.022255 13680] Hostname: CHRIS-W-XPS
+[2021-08-08T17:05:18.022255 13680] Working directory: C:\Users\Chris\Documents\GitHub\Polymer-Plotting\PolymerPlottingGUI_Executable\PolymerPlottingGUI.build
+[2021-08-08T17:05:18.022255 13680] Source file: static_src\MetaPathBasedLoader.c
+[2021-08-08T17:05:18.022255 13680] Object file: static_src\MetaPathBasedLoader.o
+[2021-08-08T17:05:18.022255 13680] Trying direct lookup
+[2021-08-08T17:05:18.023252 13680] Looking for object file hash in C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/c/2312292d59319bb6bcbdd4a791aa74-53961.manifest
+[2021-08-08T17:05:18.108025 11088] Got object file hash from manifest
+[2021-08-08T17:05:18.109022 11088] Copying C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/2/f9ca721da8c13d30a9aaa8f51ab44e-2983362.o to static_src\InspectPatcher.o (uncompressed)
+[2021-08-08T17:05:18.110021 11088] Created from cache: C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/2/f9ca721da8c13d30a9aaa8f51ab44e-2983362.o -> static_src\InspectPatcher.o
+[2021-08-08T17:05:18.110021 11088] Succeeded getting cached result
+[2021-08-08T17:05:18.110021 11088] Result: cache hit (direct)
+[2021-08-08T17:05:18.110021 11088] Acquired lock C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/stats.lock
+[2021-08-08T17:05:18.112015 11088] Releasing lock C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/stats.lock
+[2021-08-08T17:05:18.117999 13680] Got object file hash from manifest
+[2021-08-08T17:05:18.118996 13680] Copying C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/c/74044562e23a82636fe42d10d8af2f-3008603.o to static_src\MetaPathBasedLoader.o (uncompressed)
+[2021-08-08T17:05:18.119995 13680] Created from cache: C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/c/74044562e23a82636fe42d10d8af2f-3008603.o -> static_src\MetaPathBasedLoader.o
+[2021-08-08T17:05:18.119995 13680] Succeeded getting cached result
+[2021-08-08T17:05:18.119995 13680] Result: cache hit (direct)
+[2021-08-08T17:05:18.120993 13680] Acquired lock C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/stats.lock
+[2021-08-08T17:05:18.123983 13680] Releasing lock C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/stats.lock
+[2021-08-08T17:05:18.131962 13204] Got object file hash from manifest
+[2021-08-08T17:05:18.131962 13204] Copying C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/e/92bed5a14683965d68fc6f6f168708-5532578.o to static_src\CompiledCodeHelpers.o (uncompressed)
+[2021-08-08T17:05:18.132959 13204] Created from cache: C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/e/92bed5a14683965d68fc6f6f168708-5532578.o -> static_src\CompiledCodeHelpers.o
+[2021-08-08T17:05:18.133956 13204] Succeeded getting cached result
+[2021-08-08T17:05:18.133956 13204] Result: cache hit (direct)
+[2021-08-08T17:05:18.133956 13204] Acquired lock C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/stats.lock
+[2021-08-08T17:05:18.135952 13204] Releasing lock C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/stats.lock
+[2021-08-08T17:05:18.292533 15800] Got object file hash from preprocessor
+[2021-08-08T17:05:18.292533 15800] Object file C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/e/4414caca621d777a4bf77836c3dfa5-3095666.o not in cache
+[2021-08-08T17:05:18.292533 15800] Running real compiler
+[2021-08-08T17:05:19.860386 15800] Unlink C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/e/4414caca621d777a4bf77836c3dfa5-3095666.o.tmp.stdout.CHRIS-W-XPS.15800.FzP5tM
+[2021-08-08T17:05:19.861340 15800] Unlink C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/e/4414caca621d777a4bf77836c3dfa5-3095666.o.tmp.stderr.CHRIS-W-XPS.15800.1QBI6D
+[2021-08-08T17:05:19.862339 15800] Copying module.__main__.o to C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/e/4414caca621d777a4bf77836c3dfa5-3095666.o via C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/e/4414caca621d777a4bf77836c3dfa5-3095666.o.CHRIS-W-XPS.15800.SS92c3 (uncompressed)
+[2021-08-08T17:05:19.863337 15800] Stored in cache: module.__main__.o -> C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/e/4414caca621d777a4bf77836c3dfa5-3095666.o (copied)
+[2021-08-08T17:05:19.869320 15800] Added object file hash to C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/b/6f7efa2f1dcc45e2188625a755b7c6-129471.manifest
+[2021-08-08T17:05:19.869320 15800] Acquired lock C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/stats.lock
+[2021-08-08T17:05:19.871316 15800] Releasing lock C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/stats.lock
+[2021-08-08T17:05:19.872314 15800] Result: cache miss
+[2021-08-08T17:05:19.872314 15800] Acquired lock C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/stats.lock
+[2021-08-08T17:05:19.887271 15800] Releasing lock C:\Users\Chris\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/stats.lock
