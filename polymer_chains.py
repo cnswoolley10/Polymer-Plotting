@@ -2,6 +2,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits import mplot3d
 
+def get_helptext():
+	with open(r".\Text_files\help_text.txt") as helptext
+		return helptext
 ################################################################################
 
 def genRotMat(axis,angle):
