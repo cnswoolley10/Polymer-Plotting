@@ -56,7 +56,6 @@ def open_text_window(text, key, size=(100,30), title="Output Text"):
         elif event == "-save_all_output-":
             save_location = sg.popup_get_file("Select a save location", save_as=True, initial_folder=os.getcwd(), default_extension=".txt")
             pass
-            #raise NotImplementedError
 
 
     window.close()
