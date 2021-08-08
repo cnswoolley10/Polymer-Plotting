@@ -1,5 +1,5 @@
 # Polymer-Plotting
-Plotting various models for polymers in python.
+Plotting various models for polymers in python. (The C section of the repo is the section compiled to .exe by python's nuitka module)
 
 DISCLAIMER: This program was written by a student with < 1 year coding experience.
 Some bits may not be best optimised, pls no hate, feedback always welcome :)
@@ -14,4 +14,4 @@ If you don't like coding then you can run 'PolymerPlottingGUI.py' to get a user 
 Python dependencies are: Numpy, Matplotlib and PySimpleGUI (GUI only).
 
 There is also a folder containing all the necessary bits to run the most recently exported version as an .exe file.
-Save the whole folder, then run the executable within it. This should need no python installation at all, though I don't have a digital signature to sign .exe files, so windows will tell you it doesn't know who the publisher is :(.
+Save the whole folder, then run the executable within it. This should need no python installation at all, though I don't have a digital signature to sign .exe files, so windows will probably tell you it doesn't know who the publisher is :(.
