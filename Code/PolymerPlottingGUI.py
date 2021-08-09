@@ -13,6 +13,7 @@ layout = [
     [GUI.main_options_frame, GUI.output_frame],
     [GUI.chain_options_frame, GUI.plotting_frame]]
 
+output_multiline=GUI.output_multiline
 canvas_size = GUI.canvas_size
 chain_objects = GUI.chain_objects
 window = sg.Window('Polymer Plotting', layout, resizable=True)
