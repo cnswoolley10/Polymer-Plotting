@@ -25,6 +25,7 @@ chains_column_height = 500
 chain_objects = []
 chains_column_layout = []
 chain_frame_RC = ["confirm-", "print_coords-"]
+chain_combos = []#######################################################################################################################################
 for i in range(1, chain_number+1):
     new_chain_frame_layout = [
         [sg.T("Chain type:"), sg.Combo(chain_options, key="-chain{}_type-".format(i), default_value="Random Walk")],
@@ -56,7 +57,7 @@ calculator_frame_layout.append([sg.B("Calculate", key="-calculate_chain_properti
 calculator_frame = sg.Frame("Properties Calculator", layout = calculator_frame_layout)
 
 # new layout method
-chain_options_frame_column = sg.Column([[calculator_frame], [sg.B("Confirm all", key="-confirm_all_chains-")], [chains_column]], size=(left_col_width,bottom_row_height), scrollable=True, vertical_scroll_only=True)
+chain_options_frame_column = sg.Column([[calculator_frame], [sg.B("Confirm all", key="-confirm_all_chains-"), sg.B("Clear all", key="-clear_all_chains-")], [chains_column]], size=(left_col_width,bottom_row_height), scrollable=True, vertical_scroll_only=True)
 chain_options_frame = sg.Frame("Chain Options", layout=[[chain_options_frame_column]])
 plotting_frame_column = sg.Column(layout = [
     [sg.T('Controls:')],
@@ -73,7 +74,7 @@ plotting_frame_column = sg.Column(layout = [
         pad=(0, 0)
         )]], size=(right_col_width,bottom_row_height))
 plotting_frame = sg.Frame("Plotting", key="-plotting_frame-", layout = [[plotting_frame_column]])
-output_multiline = sg.Multiline("This is the text output", key="-output_textbox-", size=(80,5), write_only=True, reroute_cprint=True)
+output_multiline = sg.Multiline("This is the text output\n", key="-output_textbox-", size=(80,5), write_only=True, reroute_cprint=True)
 output_frame_column = sg.Column([[output_multiline, sg.Column([[sg.B("Popout", key="-output_popout-")], [sg.B("Clear", key="-output_clear-")]])]], size=(right_col_width,top_row_height))
 output_frame = sg.Frame("Info", layout = [[output_frame_column]])
 main_options_frame_column = sg.Column(layout = [
@@ -208,6 +209,10 @@ def confirm_chain(chain_objects, chain_index, values):
         chain_objects[chain_index].calculate_RoG()
         chain_objects[chain_index].calculate_end2end()
 
+# Function for clear chain button
+def clear_chain(chain_objects, chain_index): ###########################################################################################################################################
+    chain_objects[chain_index] = None
+    sg.update(value)
 # Function to get the index of a chain when provided an event string
 def get_chain_index(event):
     chain_index_start = event.index("-chain") + 6
