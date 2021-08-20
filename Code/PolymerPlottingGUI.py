@@ -34,7 +34,7 @@ while True:
     # prevent input values being anything but integers
     if event[-8:] == "_length-" and values[event] and values[event][-1] not in ('0123456789'):
         window[event].update(values[event][:-1])
-    # RC: calculate coords and other chain values for chain object once it is confirmed
+    # RC (Right Click): calculate coords and other chain values for chain object once it is confirmed
     if event[-9:] == "_confirm-":
         chain_index = GUI.get_chain_index(event)
         GUI.confirm_chain(chain_objects, chain_index, values)
@@ -47,6 +47,9 @@ while True:
     if event == "-confirm_all_chains-":
         for chain_index in range(len(chain_objects)):
             GUI.confirm_chain(chain_objects, chain_index, values)
+    # clear all the chains at once
+    if event == "-clear_all_chains-":##############################################################################################################
+        sg.cprint("The button works!")
     # create a help window
     if event == "-help-":
         GUI.open_text_window(help_text,"-help_window-", title="Help Text", size=(150,30))
