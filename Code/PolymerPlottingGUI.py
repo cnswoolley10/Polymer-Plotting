@@ -1,6 +1,6 @@
 import PySimpleGUI as sg
-import polymer_chains as pc
-import GUI_tools as GUI
+from . import polymer_chains as pc
+from . import GUI_tools as GUI
 
 def main():
     # ------------------------------- PySimpleGUI CODE
