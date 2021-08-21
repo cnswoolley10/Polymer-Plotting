@@ -22,4 +22,4 @@ If you don't like coding then you can run 'PolymerPlottingGUI.py' to get a user 
 
 Python dependencies are: Numpy, Matplotlib and PySimpleGUI (GUI only).
 
-Tadaa
+Tadaaa
