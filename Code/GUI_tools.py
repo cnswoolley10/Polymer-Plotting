@@ -1,5 +1,5 @@
 import PySimpleGUI as sg
-import polymer_chains as pc
+from . import polymer_chains as pc
 import os
 
 # chain options available in the GUI
