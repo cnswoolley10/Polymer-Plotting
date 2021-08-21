@@ -21,3 +21,5 @@ You can use the objects defined in 'polymer_chains.py' to write your own code fo
 If you don't like coding then you can run 'PolymerPlottingGUI.py' to get a user interface version, with lots of pre-defined functionality, but less flexibility.
 
 Python dependencies are: Numpy, Matplotlib and PySimpleGUI (GUI only).
+
+Tadaa
